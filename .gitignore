@@ -1,0 +1,17 @@
+# Local environment variables
+.env
+
+# Python virtual environment
+venv/
+ENV/
+
+# Playwright session state (contains your cookies/location)
+# Note: You'll handle this via GitHub Secrets later
+location_state.json
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
