@@ -248,8 +248,8 @@ async def scrape_prices():
             print(f"\n🔍 Scraping URL: {url}")
             
             try:
-                # Navigate to the sanitized URL
-                await page.goto(url, wait_until="networkidle", timeout=60000)
+                # Navigate to the sanitized URL with a faster wait strategy
+                await page.goto(url, wait_until="domcontentloaded", timeout=60000)
                 
                 # Capture the HTML for BeautifulSoup processing
                 html_content = await page.content()
