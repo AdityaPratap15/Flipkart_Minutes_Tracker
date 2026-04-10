@@ -189,7 +189,8 @@ def compare_and_log_price(product_name: str, current_price: int):
 
 # Product URLs to track - Add your Flipkart Minutes product links here
 PRODUCT_URLS = [
-    "https://www.flipkart.com/yardley-london-gentleman-classic-fresh-woody-fougere-daily-wear-perfume-100-ml/p/itm8d47fb1757736?pid=PERG3MY7HG3KSEGT&lid=LSTPERG3MY7HG3KSEGTJJ8LCC&marketplace=HYPERLOCAL&pageUID=1775641873199"
+    "https://www.flipkart.com/yardley-london-gentleman-classic-fresh-woody-fougere-daily-wear-perfume-100-ml/p/itm8d47fb1757736?pid=PERG3MY7HG3KSEGT&lid=LSTPERG3MY7HG3KSEGTJJ8LCC&marketplace=HYPERLOCAL&pageUID=1775641873199",
+    "https://www.flipkart.com/french-essence-luxury-triumph-long-lasting-fragrance-eau-de-parfum-30-ml/p/itmef99239ebe474?pid=PERGZH4U4GQTBUKQ&lid=LSTPERGZH4U4GQTBUKQT3BI5M&marketplace=HYPERLOCAL&pageUID=1775816962431"
 ]
 
 def extract_products_from_json(data):
